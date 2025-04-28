@@ -1,8 +1,8 @@
 :root {
-    --primary-color-text: #A3A6A3;
+    --primary-color-text: #898f89;
     --primary-color-headlines: #D5A2FE;
-    --primary-color-buttons: #9CFAB0;
-    --primary-color-background: #fcefef;
+    --primary-color-buttons: #c6f9d1;
+    --primary-color-background: #f6f1f1;
 }
 
 body {
@@ -14,6 +14,23 @@ body {
     width: 100%;
     color: var(--primary-color-text);
     background-color: var(--primary-color-background);
+}
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid var(--primary-color-text);
+    border-radius: 10px;
+    background-color: var(--primary-color-buttons);
+}
+.line {
+    width: 70%;
+    height: 3px;
+    background-color: var(--primary-color-text);
+    border-radius: 10px;
 }
 .profile-image img{
     width: 174px;
