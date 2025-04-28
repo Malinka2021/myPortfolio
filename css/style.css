@@ -1,11 +1,23 @@
+:root {
+    --primary-color-text: #A3A6A3;
+    --primary-color-headlines: #D5A2FE;
+    --primary-color-buttons: #9CFAB0;
+    --primary-color-background: #fcefef;
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
 .container {
     width: 100%;
-    
+    color: var(--primary-color-text);
+    background-color: var(--primary-color-background);
+}
+.profile-image img{
+    width: 174px;
+    height: 174px;
+    border-radius: 50%;
+    object-fit: cover;
 }
