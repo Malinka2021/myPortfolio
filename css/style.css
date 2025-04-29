@@ -5,6 +5,7 @@
     --primary-color-headlines: #D5A2FE;
     --primary-color-buttons: #c6f9d1;
     --primary-color-background: #f6f1f1;
+    --primary-color-line: #e4cdf7;
 }
 
 body {
@@ -63,16 +64,15 @@ body {
     margin: 10px;
 }
 hr{                   /* horizontal line */
-    width: 131px;
+    width: 120px;
     height: 10px;
-    background-color: var(--primary-color-headlines);
+    background-color: var(--primary-color-line);
     border: none;
     border-radius: 5px;
 }
 .headline h3{
     font-family: 'Russo One', sans-serif;
-    font-weight: 900;
-    font-size: 26px;
+    font-size: 27px;
     color: var(--primary-color-headlines);
     text-align: center;
     margin: 0;
