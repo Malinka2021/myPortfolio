@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap');
+
 :root {
     --primary-color-text: #898f89;
     --primary-color-headlines: #D5A2FE;
@@ -15,26 +17,76 @@ body {
     color: var(--primary-color-text);
     background-color: var(--primary-color-background);
 }
+.menu {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+.page-menu {
+    justify-self: end;
+}
 .hamburger {
     display: flex;
     flex-direction: column;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     justify-content: space-around;
     align-items: center;
     border: 2px solid var(--primary-color-text);
     border-radius: 10px;
     background-color: var(--primary-color-buttons);
+    margin: 20px;
 }
-.line {
+.line {          /* Hamburger lines */
     width: 70%;
-    height: 3px;
+    height: 4px;
     background-color: var(--primary-color-text);
     border-radius: 10px;
+}
+.logo-span {
+    display: inline-block;
+    margin: 25px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: var(--primary-color-headlines);
+}
+.profile{                /*container for profile image*/
+    text-align: center;
 }
 .profile-image img{
     width: 174px;
     height: 174px;
     border-radius: 50%;
     object-fit: cover;
+    margin: 10px;
+}
+hr{                   /* horizontal line */
+    width: 131px;
+    height: 10px;
+    background-color: var(--primary-color-headlines);
+    border: none;
+    border-radius: 5px;
+}
+.headline h3{
+    font-family: 'Russo One', sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    color: var(--primary-color-headlines);
+    text-align: center;
+    margin: 0;
+}
+.frame{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame img{
+    width: 288px;
+    height: 139px;
+    object-fit: cover;
+    margin: 20px;
 }
