@@ -2,10 +2,12 @@
 
 :root {
     --primary-color-text: #898f89;
-    --primary-color-headlines: #D5A2FE;
-    --primary-color-buttons: #c6f9d1;
-    --primary-color-background: #f6f1f1;
-    --primary-color-line: #e4cdf7;
+    --primary-color-headlines: #f6abf6;
+    --primary-color-buttons: #a5f8b7;
+    --primary-color-background: #fffffff5;
+    --primary-color-line: #fcd6fcef;
+    --secondary-color-text: #676d67;
+    --secondary-color-line: #f8e8f9;  /* Added the missing '--' for the variable */
 }
 
 body {
@@ -89,4 +91,32 @@ hr{                   /* horizontal line */
     height: 139px;
     object-fit: cover;
     margin: 20px;
+}
+.my-clients{
+    width: 100%;
+}
+.card{
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+.card h4{
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    color: var(--primary-color-text);
+    margin: 0px;
+}
+.card span{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--secondary-color-text);
+    background-color: var(--secondary-color-line);
+    margin-bottom: 5px;
+    padding: 4px;
+}
+.card p {
+    margin: 10px;
 }
