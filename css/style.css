@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap');
 
 :root {
-    --primary-color-text: #898f89;
-    --primary-color-headlines: #f6abf6;
+    --primary-color-text: #8e918e;
+    --primary-color-headlines: #ce7eff;
     --primary-color-buttons: #a5f8b7;
-    --primary-color-background: #fffffff5;
-    --primary-color-line: #fcd6fcef;
-    --secondary-color-text: #676d67;
-    --secondary-color-line: #f8e8f9;  /* Added the missing '--' for the variable */
+    --primary-color-background: #fafafa;
+    --primary-color-line: #edd7fa;
+    --secondary-color-text: #717471;
+    --secondary-color-line: #f3e9f9;  /* Added the missing '--' for the variable */
 }
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .container {
     width: 100%;
     color: var(--primary-color-text);
     background-color: var(--primary-color-background);
+    
 }
 .menu {
     width: 100%;
@@ -54,6 +56,7 @@ body {
     font-weight: 900;
     font-size: 24px;
     color: var(--primary-color-headlines);
+
 }
 .profile{                /*container for profile image*/
     text-align: center;
@@ -66,8 +69,8 @@ body {
     margin: 10px;
 }
 hr{                   /* horizontal line */
-    width: 120px;
-    height: 10px;
+    width: 100px;
+    height: 8px;
     background-color: var(--primary-color-line);
     border: none;
     border-radius: 5px;
@@ -118,5 +121,34 @@ hr{                   /* horizontal line */
     padding: 4px;
 }
 .card p {
+    margin: 10px;
+    color: var(--secondary-color-text);
+}
+.contact{
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+}
+.contact button{
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: var(--secondary-color-text);
+    background-color: var(--primary-color-buttons);
+    padding: 10px 45px;
+    border-radius: 10px;
+    margin: 30px;
+}
+.social-media{
+    width: 100%;
+    text-align: center;
+}
+.social-icons ul {
+    list-style: none;
+    padding: 0;
+}
+.social-icons ul li{
+    display: inline-block;
     margin: 10px;
 }
