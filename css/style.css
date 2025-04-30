@@ -2,7 +2,7 @@
 
 :root {
     --primary-color-text: #8e918e;
-    --primary-color-headlines: #ce7eff;
+    --primary-color-headlines: #D5A2FE;
     --primary-color-buttons: #a5f8b7;
     --primary-color-background: #fafafa;
     --primary-color-line: #edd7fa;
@@ -151,4 +151,8 @@ hr{                   /* horizontal line */
 .social-icons ul li{
     display: inline-block;
     margin: 10px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
 }
