@@ -183,9 +183,7 @@ footer{
         padding: 0;
         margin: 16px 0;
         text-align: center;
-
     }
-    
     .menu-list li{
         display: inline-block;
         text-transform: uppercase;
@@ -196,5 +194,17 @@ footer{
         text-align: center;
         font-family: "Roboto", sans-serif;
         color: var(--primary-color-text);
+    }
+    .profile{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .profile-image img{
+        width: 259px;
+        height: 259px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 10px;
     }
 }
