@@ -170,6 +170,7 @@ footer{
 
 
 
+
 @media (min-width: 600px) and (max-width: 1024px) {
     .hamburger-menu {
         display: none; /*hide hamburger menu*/
@@ -285,5 +286,51 @@ footer{
     .card{
         margin-top: 32px; /*move my clients down*/
     }
-    
+    .btn-contact{
+        display: none;/*move contact down*/
+    }
+    .contact-intro{
+        width: 100%;
+    }
+    .contact-intro p{
+        width: 664px;
+        text-align: start;
+        margin-left: 32px;
+    }
+    .contact-form{
+        width: 100%;
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+       
+    }
+    .contact-form form{
+        text-align: start;
+        box-sizing: border-box;
+        padding: 32px;
+       
+    }
+    input, textarea{         /*name, email, message area*/
+        width: 90%;
+        background-color: var(--primary-color-buttons);
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    input{
+        height: 38px;
+    }
+   
+    .contact-form button {
+        width: 160px;
+        height: 40px;
+        background-color: #dcdfdc;
+        text-transform: none;
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+        border-radius: 0;
+        border: 1px solid var(--primary-color-text);
+    }
+    .label{
+        margin-bottom: 12px;
+    }
 }
