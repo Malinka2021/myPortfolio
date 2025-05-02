@@ -241,6 +241,9 @@ footer{
         padding: 19px;
         margin-top: 10px;
     }
+    .main{
+        margin-top: 35px; /*move main down*/
+    }
     .my-works .frame { /*2 classes together*/
         display: none;
     }
@@ -272,4 +275,15 @@ footer{
         height: 149px;
         object-fit: cover;
     }
+    .my-clients{
+        margin-top: 48px; /*move my clients down*/
+    }
+    .my-clients p{
+        width: 500px;
+        margin: 15px auto;
+    }
+    .card{
+        margin-top: 32px; /*move my clients down*/
+    }
+    
 }
