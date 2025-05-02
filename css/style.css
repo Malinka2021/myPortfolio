@@ -203,8 +203,35 @@ footer{
     .profile-image img{
         width: 259px;
         height: 259px;
-        border-radius: 50%;
-        object-fit: cover;
-        margin: 10px;
     }
+    .profile-info{
+        display: grid;
+        justify-items: start;
+        align-items: center;
+    }
+    .profile-details span{
+        display: block; 
+        width: 248px;
+        font-size: 32px;
+        font-family: 'Roboto', sans-serif;     
+        text-align: start;
+        margin-left: 24px;
+        font-weight: 400;
+        color: var(--primary-color-text);
+    }
+    .profile-details button {
+        background-color: var(--primary-color-buttons);
+        font-size: 24px;
+        width: 285px;
+        height: 66px;
+        border-radius: 10px;
+        border: none;
+        color: var(--primary-color-text);
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 19px;
+        margin-top: 10px;
+    }
+    
 }
