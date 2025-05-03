@@ -354,3 +354,207 @@ footer{
         margin-left: 28px;
     }
 }
+
+@media (min-width: 1025px) {
+    .hamburger-menu {
+        display: none; /*hide hamburger menu*/
+    }
+    .menu{
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+    }
+    .page-menu {
+        width: 100%;
+        justify-self: center;
+        
+    }
+    .menu-list{
+        display: block;
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin: 16px 0;
+        text-align: center;
+    }
+    .menu-list li{
+        display: inline-block;
+        text-transform: uppercase;
+        list-style: none;
+        padding: 3px;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        color: var(--primary-color-text);
+    }
+    .profile{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .profile-image img{
+        width: 482px;
+        height: 482px;
+    }
+    .profile-info{
+        display: grid;
+        justify-items: center;
+        align-items: end;
+    }
+    .profile-details{
+        margin-bottom: 64px;
+    }
+    .profile-details span{
+        display: block; 
+        width: 381px;
+        font-size: 48px;
+        font-family: 'Roboto', sans-serif;     
+        text-align: start;
+        font-weight: 400;
+        color: var(--primary-color-text);
+        margin-bottom: 10px;
+    }
+    .profile-details button {
+        background-color: var(--primary-color-buttons);
+        font-size: 28px;
+        width: 381px;
+        height: 101x;
+        border-radius: 10px;
+        border: none;
+        color: var(--primary-color-text);
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 19px;
+        margin-top: 10px;
+    }
+    
+    .main{
+        margin-top: 35px; /*move main down*/
+    }
+    hr{                   /* horizontal line */
+        width: 212px;
+        height: 10px;
+        margin-left: 32px;
+    }
+    .headline h3{
+        font-size: 40px;
+        text-align: start;
+        margin-left: 32px;
+    }
+    .my-works .frame { /*2 classes together*/
+        display: none;
+    }
+    hr{               /*no dot!*/
+        margin-left: 32px;
+    }
+    .headline h3{
+        padding-left: 32px;
+        text-align: start;
+    }
+    .social-media h4{
+        padding-left: 32px;
+        text-align: start;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 10px;
+        margin-top: 32px; /*move gallery down*/
+    }
+
+    .gallery-item{
+        text-align: center;
+    }
+       
+    .gallery img{
+        width: 387px;
+        height: 201px;
+        object-fit: cover;
+    }
+    .my-clients{
+        margin-top: 48px; /*move my clients down*/
+    }
+    .my-clients p{
+        width: 500px;
+        margin: 15px auto;
+    }
+    .card{
+        margin-top: 32px; /*move my clients down*/
+    }
+    .btn-contact{
+        display: none;/*move contact down*/
+    }
+    .contact-intro{
+        width: 100%;
+    }
+    .contact-intro p{
+        width: 664px;
+        text-align: start;
+        margin-left: 32px;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        color: var(--secondary-color-text);
+    }
+    .contact-form{
+        width: 100%;
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+       
+    }
+    .contact-form form{
+        text-align: start;
+        box-sizing: border-box;
+        padding: 32px;
+       
+    }
+    input, textarea{         /*name, email, message area*/
+        width: 90%;
+        background-color: var(--primary-color-buttons);
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    input{
+        height: 38px;
+    }
+   
+    .contact-form button {
+        width: 160px;
+        height: 40px;
+        background-color: #dcdfdc;
+        text-transform: none;
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+        border-radius: 0;
+        border: 1px solid var(--primary-color-text);
+    }
+    .label{
+        margin-bottom: 12px;
+    }
+    .contact-details{
+        width: 100%;
+        text-align: start;
+        margin-left: 32px;
+    }
+    .contact-details ul{
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: var(--secondary-color-text);
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    .social-media ul{
+        text-align: start;
+        margin-left: 28px;
+    }
+    .my-works-intro p{
+        width: 895px;
+        margin-left: 32px;
+        font-size: 18px;
+        color: var(--secondary-color-text);
+    }
+
+}
