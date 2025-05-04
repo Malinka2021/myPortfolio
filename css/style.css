@@ -477,11 +477,56 @@ footer{
         margin-top: 48px; /*move my clients down*/
     }
     .my-clients p{
-        width: 500px;
+        width: 700px;
         margin: 15px auto;
     }
     .card{
-        margin-top: 32px; /*move my clients down*/
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        width: 93%;
+        margin: 24px auto;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        border: 1px solid var(--primary-color-text);
+    
+    }
+    .card h4{
+        font-family: 'Russo One', sans-serif;
+        font-size: 36px;
+        color: var(--primary-color-text);
+        margin: 0px;
+    }
+    .card span{
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        color: var(--secondary-color-text);
+        background-color: var(--secondary-color-line);
+        margin-bottom: 5px;
+        padding: 4px;
+    }
+    .card p {
+        margin: 0;
+        color: var(--secondary-color-text);
+        font-size: 18px;
+    }
+    .card-image img{
+        width: 160px;
+        height: 140px;
+        object-fit: cover;
+        margin-top: 64px;
+    }
+    .card-text-content{
+        text-align: start;
+        box-sizing: border-box; /*not change box size*/
+        padding: 40px;
+        padding-left: 0;
+       
+    }
+    .role-description{
+        display: inline-block;
+        margin: 24px 0;
+        margin-right: 16px;
     }
     .btn-contact{
         display: none;/*move contact down*/
