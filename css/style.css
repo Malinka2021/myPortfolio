@@ -17,8 +17,7 @@ body {
 .container {
     width: 100%;
     color: var(--primary-color-text);
-    background-color: var(--primary-color-background);
-   
+    background-color: var(--primary-color-background)
 }
 .menu {
     display: grid;
@@ -102,7 +101,6 @@ hr{                   /* horizontal line */
     margin-top: 15px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
- 
 }
 .card h4{
     font-family: 'Russo One', sans-serif;
@@ -183,9 +181,6 @@ footer{
     display: none;
 }
 
-
-
-
 @media (min-width: 600px) and (max-width: 1024px) {
     .hamburger-menu {
         display: none; /*hide hamburger menu*/
@@ -231,7 +226,6 @@ footer{
         display: grid;
         grid-template-columns: 1fr 2fr;
     }
-
     .profile-image img{
         width: 259px;
         height: 259px;
@@ -297,11 +291,9 @@ footer{
         gap: 10px;
         margin-top: 32px; /*move gallery down*/
     }
-
     .gallery-item{
         text-align: center;
     }
-       
     .gallery img{
         width: 299px;
         height: 149px;
@@ -417,8 +409,7 @@ footer{
         width: 100%;
         justify-self: center;
     }
-    .logo-span
-     {
+    .logo-span{
         display: inline-block;
         margin: 32px;
         font-family: 'Roboto', sans-serif;
@@ -488,7 +479,6 @@ footer{
         padding: 19px;
         margin-top: 10px;
     }
-    
     .main{
         margin-top: 35px; /*move main down*/
     }
@@ -507,8 +497,6 @@ footer{
     .my-works .frame { /*2 classes together*/
         display: none;
     }
-
-    
     .headline h3{
        
         text-align: start;
@@ -524,11 +512,9 @@ footer{
         gap: 10px;
         margin-top: 32px; /*move gallery down*/
     }
-
     .gallery-item{
         text-align: center;
     }
-       
     .gallery img{
         width: 333px;
         height: 163px;
@@ -689,8 +675,6 @@ footer{
     .social-media .card{
         border: none;
         margin: 0 auto;
-       
-    
     }
     .social-media h4{
         text-align: start;
@@ -707,8 +691,7 @@ footer{
     .social-icons ul {
         list-style: none;
         padding-bottom: 32px;
-    
-        
+        margin: 0;
     }
     .social-icons ul li{
         display: inline-block;
