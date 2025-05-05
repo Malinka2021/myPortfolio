@@ -307,10 +307,7 @@ footer{
         height: 149px;
         object-fit: cover;
     }
-    .my-clients-cards .card{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(2, auto);
+    .my-clients{
         gap: 10px;
         margin-top: 32px; /*move my clients down*/
     }
@@ -637,7 +634,6 @@ footer{
         height: 38px;
 
     }
-   
     .contact-form button {
         width: 160px;
         height: 40px;
@@ -675,6 +671,13 @@ footer{
     .contact-details ul li{
         margin: 32px 0;
         font-size: 24px;
+    }
+    .contact-info img{
+        width: 55px;
+        height: 45px;
+        margin: 8px;
+        margin-bottom: 0;
+        margin-right: 15px;
     }
     .social-media{
         grid-column: 2 / 3;
