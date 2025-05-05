@@ -18,7 +18,7 @@ body {
     width: 100%;
     color: var(--primary-color-text);
     background-color: var(--primary-color-background);
-    padding: 20px;
+   
 }
 .menu {
     display: grid;
@@ -179,7 +179,9 @@ footer{
 .contact-details{
     display: none;
 }
-
+#contact-me-headline{
+    display: none;
+}
 
 
 
@@ -509,7 +511,7 @@ footer{
         display: none;
     }
 
-    }
+    
     .headline h3{
        
         text-align: start;
@@ -718,3 +720,4 @@ footer{
         font-size: 18px;
         color: var(--secondary-color-text);
     }
+}
